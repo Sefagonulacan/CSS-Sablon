@@ -1,0 +1,79 @@
+#anasayfa{
+    float: left;
+    width: 980px;
+    height: 1000px;
+    border: 10px;
+    margin: 0px;
+    padding: 0px;
+    background-color: aquamarine;
+    border-radius: 3px;
+    border-color: chartreuse;
+    border-style: double;
+    
+}
+#header{
+    float: left;
+    width: 980px;
+    height: 190px;
+    background-color: black;
+    border-width: 2px;
+    border-style: dashed;
+    border-width: 2px;
+}
+#header p{
+    text-align: center;
+    font-size: 95px;
+    margin-top: 30px;
+    color: chartreuse;
+}
+#header p a{
+    text-decoration: none;
+    background: black;
+    display: block;
+    color: aqua;
+}
+#header p a:hover{
+    transition: .3s;
+    color:brown ;
+    padding-right: 15px;
+}
+#nav{
+    float: left;
+    width: 350px;
+    height: 450px;
+    background-color: darkgray;
+    border-style: dashed;
+}
+#nav p{
+    text-align: center;
+    font-size: 80px;
+    margin-top: 55px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: chocolate;
+}
+#article{
+    float: right;
+    width: 350px;
+    height: 450px;
+    background-color: darkorange;
+    border-style: double;
+}
+#article p{
+    text-align: center;
+    font-size: 80px;
+    margin-top: 55px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#footer{
+    float: left;
+    width: 980px;
+    height: 190px;
+    background-color: darkred;
+}
+#footer p{
+    text-align: center;
+    font-size: 80px;
+    margin-top: 25px;
+
+}
