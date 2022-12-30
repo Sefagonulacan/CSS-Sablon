@@ -1,0 +1,3 @@
+select islem.islemno, kitap.isbnno, kitap.kitapadi, yazar.yazarad, yazar.yazarsoyad, kitap.sayfasayisi from ((kitap INNER JOIN islem on kitap.kitapno=islem.islemno) inner join yazar on kitap.kitapno = yazar.yazarno)
+select	kitap.isbnno, kitap.kitapadi, yazar.yazarad, yazar.yazarsoyad, kitap.sayfasayisi,kitap.turno from kitap inner join yazar on kitap.kitapno = yazar.yazarno
+select islem.ogrno, kitap.isbnno, kitap.kitapadi, yazar.yazarad, yazar.yazarsoyad,kitap.sayfasayisi, kitap.turno,islem.atarih, islem.vtarih from ((kitap inner join islem on kitap.kitapno=islem.islemno) inner join yazar on kitap.kitapno = yazar.yazarno)
